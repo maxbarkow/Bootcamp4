@@ -2,6 +2,7 @@ import React from 'react';
 
 export default ({data, selectedBuilding}) => {
 console.log("selectedBuilding", selectedBuilding)
+const realVal = selectedBuilding - 1
 	const building = data[selectedBuilding].name
 	const code = data[selectedBuilding].code
 	var address = ''

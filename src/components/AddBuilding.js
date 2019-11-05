@@ -8,14 +8,14 @@ class AddBuilding extends Component {
 				<form>
 					<input
                         type = "text"
-                        placeholder = "Code"
+                        placeholder = "Code - REQUIRED"
                         ref={ (code) => this.code = code }
 					/>
 				</form>
 				<form>
 					<input
                         type="text"
-                        placeholder="Name"
+                        placeholder="Name - REQUIRED"
                         ref = { (name) => this.name = name }
 					/>
 				</form>

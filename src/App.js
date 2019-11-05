@@ -7,7 +7,7 @@ import AddBuilding from './components/AddBuilding';
 import RemoveBuilding from './components/RemoveBuilding';
 
 
-
+//
 class App extends React.Component {
   constructor(props) {
     super(props);
@@ -26,7 +26,7 @@ class App extends React.Component {
 
   selectedUpdate(id) {
     this.setState({
-      selectedBuilding: id - 1 //because it is zero
+      selectedBuilding: id - 1 //because it is zero indexed
     })
   }
 
